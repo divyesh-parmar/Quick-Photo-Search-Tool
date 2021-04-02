@@ -122,7 +122,7 @@ public class FirstActivity extends Activity {
         privacybtn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                startActivity(new Intent(FirstActivity.this, PolicyAct.class));
+                
             }
         });
     }
