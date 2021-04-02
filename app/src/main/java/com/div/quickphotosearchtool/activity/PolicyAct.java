@@ -58,7 +58,7 @@ public class PolicyAct extends Activity {
     }
 
     private void init() {
-        webview.loadUrl("file:///android_asset/privacy_policy.html");
+        webview.loadUrl("enter html file path");
         webview.requestFocus();
         progress_bar.setVisibility(View.VISIBLE);
         webview.setWebViewClient(new WebViewClient() {
